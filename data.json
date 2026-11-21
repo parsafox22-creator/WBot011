@@ -1,0 +1,154 @@
+{
+  "users": {
+    "2": {
+      "balance": 0,
+      "crv_code": "crv-2",
+      "orders": [],
+      "hidden_packs": [],
+      "blocked": false,
+      "blocked_until": null,
+      "restrictions": {},
+      "referrer_id": null,
+      "referral_reward_claimed": false
+    },
+    "3": {
+      "balance": 0,
+      "crv_code": "crv-3",
+      "orders": [],
+      "hidden_packs": [],
+      "blocked": false,
+      "blocked_until": null,
+      "restrictions": {}
+    },
+    "1": {
+      "balance": 0,
+      "username": "u",
+      "first_name": "Test",
+      "crv_code": "crv-1",
+      "orders": [],
+      "hidden_packs": [],
+      "blocked": false,
+      "blocked_until": null,
+      "restrictions": {},
+      "created_at": "2026-08-29 06:53:30",
+      "referrer_id": null,
+      "referral_reward_claimed": false
+    },
+    "999999": {
+      "balance": 0,
+      "crv_code": "crv-999999",
+      "orders": [],
+      "hidden_packs": [],
+      "blocked": false,
+      "blocked_until": null,
+      "restrictions": {}
+    }
+  },
+  "packs": {},
+  "orders": {},
+  "tickets": {
+    "TKT-C5A0A811": {
+      "code": "TKT-C5A0A811",
+      "user_id": "2",
+      "subject": "موضوع",
+      "message": "متن اولیه",
+      "answer": "پاسخ ادمین",
+      "status": "open",
+      "turn": "admin",
+      "created_at": "2026-08-29 06:53:30",
+      "messages": [
+        {
+          "sender": "user",
+          "user_id": "2",
+          "text": "متن اولیه",
+          "created_at": "2026-08-29 06:53:30"
+        },
+        {
+          "sender": "admin",
+          "admin_id": "1",
+          "text": "پاسخ ادمین",
+          "created_at": "2026-08-29 06:53:30"
+        },
+        {
+          "sender": "user",
+          "user_id": "2",
+          "text": "پاسخ کاربر",
+          "created_at": "2026-08-29 06:53:30"
+        }
+      ],
+      "last_admin_at": "2026-08-29 06:53:30"
+    }
+  },
+  "deposits": {},
+  "discounts": {},
+  "referral_rewards": {},
+  "private_threads": {
+    "101": {
+      "chat_id": "PV-0C2D52F8",
+      "user_id": "2",
+      "admin_id": "1",
+      "created_at": "2026-08-29 06:53:30",
+      "sender": "admin",
+      "text": "hello <x>"
+    },
+    "103": {
+      "chat_id": "PV-0C2D52F8",
+      "user_id": "2",
+      "admin_id": "1",
+      "created_at": "2026-08-29 06:53:30",
+      "sender": "user",
+      "text": "reply user",
+      "reply_to_message_id": "101"
+    },
+    "105": {
+      "chat_id": "PV-0C2D52F8",
+      "user_id": "2",
+      "admin_id": "1",
+      "created_at": "2026-08-29 06:53:30",
+      "sender": "admin",
+      "text": "reply admin",
+      "reply_to_message_id": "103"
+    },
+    "555": {
+      "chat_id": "PV-FAILTEST",
+      "user_id": "999999",
+      "admin_id": "1",
+      "text": "old",
+      "sender": "user"
+    }
+  },
+  "private_chats": {
+    "PV-0C2D52F8": {
+      "user_id": "2",
+      "admin_id": "1",
+      "status": "open",
+      "turn": "user",
+      "last_message_id": "105",
+      "created_at": "2026-08-29 06:53:30"
+    },
+    "PV-FAILTEST": {
+      "user_id": "999999",
+      "admin_id": "1",
+      "status": "open",
+      "turn": "admin",
+      "last_message_id": "555",
+      "created_at": "2026-08-29 06:53:30"
+    }
+  },
+  "admins": {},
+  "settings": {
+    "bot_enabled": true,
+    "welcome_text": "به ربات خوش آمدید",
+    "guide_text": "راهنما تنظیم نشده است.",
+    "card_number": "",
+    "card_holder": "",
+    "min_deposit": 50000,
+    "admin_link": "",
+    "force_join": false,
+    "channel_id": "",
+    "channel_link": "",
+    "referral_enabled": true,
+    "referral_percent": 10,
+    "referral_max_rewards": 1
+  }
+}
